@@ -1,5 +1,11 @@
 # IATA/ICAO List
-This list contains the airport codes of [IATA airport code](https://en.wikipedia.org/wiki/International_Air_Transport_Association_airport_code) and [ICAO airport code](https://en.wikipedia.org/wiki/International_Civil_Aviation_Organization_airport_code) grouped based on the country code (ISO3166-1) and region name (ISO3166-2) supported in IP2Location geolocation database.
+This original list
+>iata-icao.csv
+
+contains the airport codes of [IATA airport code](https://en.wikipedia.org/wiki/International_Air_Transport_Association_airport_code) and [ICAO airport code](https://en.wikipedia.org/wiki/International_Civil_Aviation_Organization_airport_code) grouped based on the country code (ISO3166-1) and region name (ISO3166-2) supported in IP2Location geolocation database.
+
+In this repo, the fips of us counties are inserted in to 
+>iata-icao-fips.csv
 
 ## Data fields
 Below are the fields supported in the IATA/ICAO List.
@@ -13,6 +19,7 @@ Below are the fields supported in the IATA/ICAO List.
 |airport|Airport name.|
 |latitude|Latitude of the airport.|
 |longitude|Longitude of the airport.|
+|FIPS|FIPS of counties in US.|
 
 
 ## License
